@@ -1,0 +1,54 @@
+[
+    {
+        "resource_id": "null",
+        "text": "Sign up free",
+        "type": "Button",
+        "location": {
+            "x": 84,
+            "y": 1896
+        },
+        "size": {
+            "height": 126,
+            "width": 912
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "Log in",
+        "type": "Button",
+        "location": {
+            "x": 84,
+            "y": 2043
+        },
+        "size": {
+            "height": 126,
+            "width": 912
+        }
+    },
+    {
+        "resource_id": "com.spotify.music:id/value_proposition_textview",
+        "text": "Millions of songs.\nFree on Spotify.",
+        "type": "TextView",
+        "location": {
+            "x": 84,
+            "y": 1000
+        },
+        "size": {
+            "height": 307,
+            "width": 912
+        }
+    },
+    {
+        "resource_id": "com.spotify.music:id/version_label",
+        "text": "",
+        "type": "TextView",
+        "location": {
+            "x": 0,
+            "y": 132
+        },
+        "size": {
+            "height": 90,
+            "width": 32
+        }
+    }
+]
