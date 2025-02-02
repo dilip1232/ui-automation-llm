@@ -1,54 +1,258 @@
 [
     {
         "resource_id": "null",
-        "text": "Sign up free",
-        "type": "Button",
+        "text": "",
+        "class": "android.widget.FrameLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
         "location": {
-            "x": 84,
-            "y": 1896
+            "x": 28,
+            "y": 892
         },
         "size": {
-            "height": 126,
-            "width": 912
+            "height": 684,
+            "width": 1024
         }
     },
     {
         "resource_id": "null",
-        "text": "Log in",
-        "type": "Button",
-        "location": {
-            "x": 84,
-            "y": 2043
-        },
-        "size": {
-            "height": 126,
-            "width": 912
-        }
-    },
-    {
-        "resource_id": "com.spotify.music:id/value_proposition_textview",
-        "text": "Millions of songs.\nFree on Spotify.",
-        "type": "TextView",
-        "location": {
-            "x": 84,
-            "y": 1000
-        },
-        "size": {
-            "height": 307,
-            "width": 912
-        }
-    },
-    {
-        "resource_id": "com.spotify.music:id/version_label",
         "text": "",
-        "type": "TextView",
+        "class": "android.widget.FrameLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
         "location": {
-            "x": 0,
-            "y": 132
+            "x": 70,
+            "y": 934
         },
         "size": {
-            "height": 90,
-            "width": 32
+            "height": 600,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/content",
+        "text": "",
+        "class": "android.widget.FrameLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 934
+        },
+        "size": {
+            "height": 600,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/parentPanel",
+        "text": "",
+        "class": "android.widget.LinearLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 934
+        },
+        "size": {
+            "height": 600,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/topPanel",
+        "text": "",
+        "class": "android.widget.LinearLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 934
+        },
+        "size": {
+            "height": 139,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/title_template",
+        "text": "",
+        "class": "android.widget.LinearLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 934
+        },
+        "size": {
+            "height": 118,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/alertTitle",
+        "text": "Update available",
+        "class": "android.widget.TextView",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 133,
+            "y": 981
+        },
+        "size": {
+            "height": 71,
+            "width": 814
+        }
+    },
+    {
+        "resource_id": "android:id/titleDividerNoCustom",
+        "text": "",
+        "class": "android.view.View",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 1052
+        },
+        "size": {
+            "height": 21,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/contentPanel",
+        "text": "",
+        "class": "android.widget.FrameLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 1073
+        },
+        "size": {
+            "height": 155,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/scrollView",
+        "text": "",
+        "class": "android.widget.ScrollView",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 1073
+        },
+        "size": {
+            "height": 155,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.LinearLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 1073
+        },
+        "size": {
+            "height": 155,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/message",
+        "text": "An important update requires you to restart the app. Please save your work before you press \"Restart now\".",
+        "class": "android.widget.TextView",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 1073
+        },
+        "size": {
+            "height": 155,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/buttonPanel",
+        "text": "",
+        "class": "android.widget.ScrollView",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 1228
+        },
+        "size": {
+            "height": 306,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.LinearLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 70,
+            "y": 1228
+        },
+        "size": {
+            "height": 306,
+            "width": 940
+        }
+    },
+    {
+        "resource_id": "android:id/button1",
+        "text": "REMIND ME AFTER 5 MINUTES (2)",
+        "class": "android.widget.Button",
+        "content_desc": "null",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 343,
+            "y": 1239
+        },
+        "size": {
+            "height": 142,
+            "width": 635
+        }
+    },
+    {
+        "resource_id": "android:id/button2",
+        "text": "RESTART NOW",
+        "class": "android.widget.Button",
+        "content_desc": "null",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 665,
+            "y": 1381
+        },
+        "size": {
+            "height": 142,
+            "width": 313
         }
     }
 ]

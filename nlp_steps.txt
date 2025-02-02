@@ -1,0 +1,10 @@
+Step 1: Enter 'company' into the text field with the id 'usernameTextField'.
+Step 2: Enter 'company' into the element with the id 'passwordTextField'.
+Step 3: Click on the element with the id 'loginButton'.
+Step 4: Click on the element with the text 'Make Payment'.
+Step 5: Enter '123456' into the phone text field identified by the xpath '//*[@id='phoneTextField']'.
+Step 6: Enter 'Test' into the text field with the ID 'nameTextField'.
+Step 7: Enter '10' into the field with the id 'amountTextField'.
+Step 8: Enter 'US' into the text field with the ID 'countryTextField'.
+Step 9: Click on the element with text 'Send Payment'.
+Step 10: Click on the element with the ID 'button1' identified by its Xpath.

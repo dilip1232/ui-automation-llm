@@ -1,30 +1,41 @@
-from scripts.appium_driver import get_driver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-def test_app():
-    driver = get_driver()
-    wait = WebDriverWait(driver, 10)
+import unittest
+from appium import webdriver
+import os
 
 
-    # Step 1: Click on the 'Sign up free' button.
-    try:
-        element = wait.until(EC.presence_of_element_located((By.XPATH, "//android.widget.Button[@text='Sign up free']")))
-        element.click()
-        print("✅ Click on the 'Sign up free' button.")
-    except Exception as e:
-        print("Failed: Click on the 'Sign up free' button. -", str(e))
+class AndroidAppTest(unittest.TestCase):
+    test_name = "Android App Test with Python"
+    dc = {}
+    # if you have configured an access key as environment variable,
+    # use the line below. Otherwise, specify the key directly.
+    accessKey = os.environ['SEETEST_IO_ACCESS_KEY']
+    driver = None
 
-    # Step 2: Click on the 'Log in' button.
-    try:
-        element = wait.until(EC.presence_of_element_located((By.XPATH, "//android.widget.Button[@text='Log in']")))
-        element.click()
-        print("✅ Click on the 'Log in' button.")
-    except Exception as e:
-        print("Failed: Click on the 'Log in' button. -", str(e))
+    def setUp(self):
+        self.dc['testName'] = self.test_name
+        self.dc['accessKey'] = self.accessKey
+        self.dc['platformName'] = 'Android'
+        self.dc['app'] = 'http://d242m5chux1g9j.cloudfront.net/eribank.apk'
+        self.dc['appPackage'] = 'com.experitest.ExperiBank'
+        self.dc['appActivity'] = '.LoginActivity'
+        self.driver = webdriver.Remote('https://cloud.seetest.io:443/wd/hub', self.dc)
 
-    driver.quit()
+    def testYourAndroidApp(self):
+        self.driver.find_element_by_xpath("xpath=//*[@id='usernameTextField']").send_keys('company')
+        self.driver.find_element_by_xpath("xpath=//*[@id='passwordTextField']").send_keys('company')
+        self.driver.find_element_by_xpath("xpath=//*[@id='loginButton']").click()
+        self.driver.find_element_by_xpath("xpath=//*[@text='Make Payment']").click()
+        self.driver.find_element_by_xpath("xpath=//*[@id='phoneTextField']").send_keys('123456')
+        self.driver.find_element_by_xpath("xpath=//*[@id='nameTextField']").send_keys('Test')
+        self.driver.find_element_by_xpath("xpath=//*[@id='amountTextField']").send_keys('10')
+        self.driver.find_element_by_xpath("xpath=//*[@id='countryTextField']").send_keys('US')
+        self.driver.find_element_by_xpath("xpath=//*[@text='Send Payment']").click()
+        self.driver.find_element_by_xpath("xpath=//*[@id='button1']").click()
 
-if __name__ == "__main__":
-    test_app()
+    def tearDown(self):
+        if self.driver is not None:
+            print(self.driver.capabilities.get("reportUrl"))
+            self.driver.quit()
+
+    if __name__ == '__main__':
+        unittest.main()
