@@ -1,41 +1,90 @@
-import unittest
-from appium import webdriver
-import os
+from scripts.appium_driver import get_driver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
+def test_app():
+    driver = get_driver()
+    wait = WebDriverWait(driver, 10)
 
-class AndroidAppTest(unittest.TestCase):
-    test_name = "Android App Test with Python"
-    dc = {}
-    # if you have configured an access key as environment variable,
-    # use the line below. Otherwise, specify the key directly.
-    accessKey = os.environ['SEETEST_IO_ACCESS_KEY']
-    driver = None
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.view.ViewGroup")))
+        element.click()
+        print('Step 1 passed')
+    except Exception as e:
+        print('Step 1 failed -', str(e))
 
-    def setUp(self):
-        self.dc['testName'] = self.test_name
-        self.dc['accessKey'] = self.accessKey
-        self.dc['platformName'] = 'Android'
-        self.dc['app'] = 'http://d242m5chux1g9j.cloudfront.net/eribank.apk'
-        self.dc['appPackage'] = 'com.experitest.ExperiBank'
-        self.dc['appActivity'] = '.LoginActivity'
-        self.driver = webdriver.Remote('https://cloud.seetest.io:443/wd/hub', self.dc)
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.widget.Button")))
+        element.click()
+        print('Step 2 passed')
+    except Exception as e:
+        print('Step 2 failed -', str(e))
 
-    def testYourAndroidApp(self):
-        self.driver.find_element_by_xpath("xpath=//*[@id='usernameTextField']").send_keys('company')
-        self.driver.find_element_by_xpath("xpath=//*[@id='passwordTextField']").send_keys('company')
-        self.driver.find_element_by_xpath("xpath=//*[@id='loginButton']").click()
-        self.driver.find_element_by_xpath("xpath=//*[@text='Make Payment']").click()
-        self.driver.find_element_by_xpath("xpath=//*[@id='phoneTextField']").send_keys('123456')
-        self.driver.find_element_by_xpath("xpath=//*[@id='nameTextField']").send_keys('Test')
-        self.driver.find_element_by_xpath("xpath=//*[@id='amountTextField']").send_keys('10')
-        self.driver.find_element_by_xpath("xpath=//*[@id='countryTextField']").send_keys('US')
-        self.driver.find_element_by_xpath("xpath=//*[@text='Send Payment']").click()
-        self.driver.find_element_by_xpath("xpath=//*[@id='button1']").click()
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.view.ViewGroup")))
+        element.click()
+        print('Step 3 passed')
+    except Exception as e:
+        print('Step 3 failed -', str(e))
 
-    def tearDown(self):
-        if self.driver is not None:
-            print(self.driver.capabilities.get("reportUrl"))
-            self.driver.quit()
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.widget.EditText")))
+        element.click()
+        print('Step 4 passed')
+    except Exception as e:
+        print('Step 4 failed -', str(e))
 
-    if __name__ == '__main__':
-        unittest.main()
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.widget.EditText")))
+        element.send_keys("sample text")
+        print('Step 4 passed')
+    except Exception as e:
+        print('Step 4 failed -', str(e))
+
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.view.ViewGroup")))
+        element.click()
+        print('Step 5 passed')
+    except Exception as e:
+        print('Step 5 failed -', str(e))
+
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.widget.EditText")))
+        element.click()
+        print('Step 6 passed')
+    except Exception as e:
+        print('Step 6 failed -', str(e))
+
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.widget.EditText")))
+        element.send_keys("sample text")
+        print('Step 6 passed')
+    except Exception as e:
+        print('Step 6 failed -', str(e))
+
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.widget.Button")))
+        element.click()
+        print('Step 7 passed')
+    except Exception as e:
+        print('Step 7 failed -', str(e))
+
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.widget.Button")))
+        element.click()
+        print('Step 8 passed')
+    except Exception as e:
+        print('Step 8 failed -', str(e))
+
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "android.widget.Button")))
+        element.click()
+        print('Step 9 passed')
+    except Exception as e:
+        print('Step 9 failed -', str(e))
+
+    driver.quit()
+
+if __name__ == '__main__':
+    test_app()

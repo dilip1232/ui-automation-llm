@@ -5,7 +5,7 @@ from config.config import EMULATOR_NAME, APK_PATH
 def start_emulator():
     print("Starting emulator...")
     # Use Popen to run the emulator in the background
-    subprocess.Popen(["emulator", "-avd", EMULATOR_NAME])
+    subprocess.Popen(["emulator", "-avd", EMULATOR_NAME, "-read-only"])
 
 def install_apk():
     print("Installing APK...")

@@ -19,7 +19,7 @@ def code_to_nlp_tool(code_snippet: str) -> str:
     Converts an Appium code snippet into a single, concise natural language instruction 
     that describes one atomic action (e.g., 'Tap on the Sign Up button.').
     """
-    # We now insert the code snippet directly without triple backticks.
+
     prompt = (
         "Convert the following Appium Python code snippet into a single, concise natural language instruction "
         "that describes one atomic action. Do not combine multiple actions in one sentence or include any additional commentary.\n\n"

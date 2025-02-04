@@ -7,28 +7,28 @@
         "clickable": "false",
         "enabled": "true",
         "location": {
-            "x": 28,
-            "y": 892
+            "x": 0,
+            "y": 0
         },
         "size": {
-            "height": 684,
-            "width": 1024
+            "height": 2400,
+            "width": 1080
         }
     },
     {
         "resource_id": "null",
         "text": "",
-        "class": "android.widget.FrameLayout",
+        "class": "android.widget.LinearLayout",
         "content_desc": "null",
         "clickable": "false",
         "enabled": "true",
         "location": {
-            "x": 70,
-            "y": 934
+            "x": 0,
+            "y": 0
         },
         "size": {
-            "height": 600,
-            "width": 940
+            "height": 2400,
+            "width": 1080
         }
     },
     {
@@ -39,220 +39,700 @@
         "clickable": "false",
         "enabled": "true",
         "location": {
-            "x": 70,
-            "y": 934
+            "x": 0,
+            "y": 0
         },
         "size": {
-            "height": 600,
-            "width": 940
+            "height": 2400,
+            "width": 1080
         }
     },
     {
-        "resource_id": "android:id/parentPanel",
-        "text": "",
-        "class": "android.widget.LinearLayout",
-        "content_desc": "null",
-        "clickable": "false",
-        "enabled": "true",
-        "location": {
-            "x": 70,
-            "y": 934
-        },
-        "size": {
-            "height": 600,
-            "width": 940
-        }
-    },
-    {
-        "resource_id": "android:id/topPanel",
-        "text": "",
-        "class": "android.widget.LinearLayout",
-        "content_desc": "null",
-        "clickable": "false",
-        "enabled": "true",
-        "location": {
-            "x": 70,
-            "y": 934
-        },
-        "size": {
-            "height": 139,
-            "width": 940
-        }
-    },
-    {
-        "resource_id": "android:id/title_template",
-        "text": "",
-        "class": "android.widget.LinearLayout",
-        "content_desc": "null",
-        "clickable": "false",
-        "enabled": "true",
-        "location": {
-            "x": 70,
-            "y": 934
-        },
-        "size": {
-            "height": 118,
-            "width": 940
-        }
-    },
-    {
-        "resource_id": "android:id/alertTitle",
-        "text": "Update available",
-        "class": "android.widget.TextView",
-        "content_desc": "null",
-        "clickable": "false",
-        "enabled": "true",
-        "location": {
-            "x": 133,
-            "y": 981
-        },
-        "size": {
-            "height": 71,
-            "width": 814
-        }
-    },
-    {
-        "resource_id": "android:id/titleDividerNoCustom",
-        "text": "",
-        "class": "android.view.View",
-        "content_desc": "null",
-        "clickable": "false",
-        "enabled": "true",
-        "location": {
-            "x": 70,
-            "y": 1052
-        },
-        "size": {
-            "height": 21,
-            "width": 940
-        }
-    },
-    {
-        "resource_id": "android:id/contentPanel",
+        "resource_id": "com.facebook.katana:id/(name removed)",
         "text": "",
         "class": "android.widget.FrameLayout",
         "content_desc": "null",
         "clickable": "false",
         "enabled": "true",
         "location": {
-            "x": 70,
-            "y": 1073
+            "x": 0,
+            "y": 132
         },
         "size": {
-            "height": 155,
-            "width": 940
+            "height": 2205,
+            "width": 1080
         }
     },
     {
-        "resource_id": "android:id/scrollView",
+        "resource_id": "com.facebook.katana:id/(name removed)",
         "text": "",
-        "class": "android.widget.ScrollView",
+        "class": "android.widget.FrameLayout",
         "content_desc": "null",
         "clickable": "false",
         "enabled": "true",
         "location": {
-            "x": 70,
-            "y": 1073
+            "x": 0,
+            "y": 132
         },
         "size": {
-            "height": 155,
-            "width": 940
+            "height": 2205,
+            "width": 1080
         }
     },
     {
         "resource_id": "null",
         "text": "",
-        "class": "android.widget.LinearLayout",
+        "class": "android.widget.FrameLayout",
         "content_desc": "null",
         "clickable": "false",
         "enabled": "true",
         "location": {
-            "x": 70,
-            "y": 1073
+            "x": 0,
+            "y": 132
         },
         "size": {
-            "height": 155,
-            "width": 940
-        }
-    },
-    {
-        "resource_id": "android:id/message",
-        "text": "An important update requires you to restart the app. Please save your work before you press \"Restart now\".",
-        "class": "android.widget.TextView",
-        "content_desc": "null",
-        "clickable": "false",
-        "enabled": "true",
-        "location": {
-            "x": 70,
-            "y": 1073
-        },
-        "size": {
-            "height": 155,
-            "width": 940
-        }
-    },
-    {
-        "resource_id": "android:id/buttonPanel",
-        "text": "",
-        "class": "android.widget.ScrollView",
-        "content_desc": "null",
-        "clickable": "false",
-        "enabled": "true",
-        "location": {
-            "x": 70,
-            "y": 1228
-        },
-        "size": {
-            "height": 306,
-            "width": 940
+            "height": 2205,
+            "width": 1080
         }
     },
     {
         "resource_id": "null",
         "text": "",
-        "class": "android.widget.LinearLayout",
+        "class": "android.widget.FrameLayout",
         "content_desc": "null",
         "clickable": "false",
         "enabled": "true",
         "location": {
-            "x": 70,
-            "y": 1228
+            "x": 0,
+            "y": 132
         },
         "size": {
-            "height": 306,
-            "width": 940
+            "height": 2205,
+            "width": 1080
         }
     },
     {
-        "resource_id": "android:id/button1",
-        "text": "REMIND ME AFTER 5 MINUTES (2)",
-        "class": "android.widget.Button",
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.FrameLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 132
+        },
+        "size": {
+            "height": 2205,
+            "width": 1080
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.FrameLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 132
+        },
+        "size": {
+            "height": 2205,
+            "width": 1080
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 132
+        },
+        "size": {
+            "height": 2205,
+            "width": 1080
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 132
+        },
+        "size": {
+            "height": 2205,
+            "width": 1080
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 143
+        },
+        "size": {
+            "height": 2194,
+            "width": 1080
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 143
+        },
+        "size": {
+            "height": 2194,
+            "width": 1080
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
         "content_desc": "null",
         "clickable": "true",
         "enabled": "true",
         "location": {
-            "x": 343,
-            "y": 1239
+            "x": 42,
+            "y": 164
         },
         "size": {
-            "height": 142,
-            "width": 635
+            "height": 2136,
+            "width": 996
         }
     },
     {
-        "resource_id": "android:id/button2",
-        "text": "RESTART NOW",
+        "resource_id": "null",
+        "text": "",
         "class": "android.widget.Button",
+        "content_desc": "English (US)",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 164
+        },
+        "size": {
+            "height": 57,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "English (US)",
+        "class": "android.view.View",
+        "content_desc": "English (US)",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 416,
+            "y": 164
+        },
+        "size": {
+            "height": 57,
+            "width": 198
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 622,
+            "y": 168
+        },
+        "size": {
+            "height": 42,
+            "width": 42
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 622,
+            "y": 168
+        },
+        "size": {
+            "height": 42,
+            "width": 42
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.ImageView",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 622,
+            "y": 168
+        },
+        "size": {
+            "height": 42,
+            "width": 42
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.ImageView",
+        "content_desc": "Facebook from Meta",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 480
+        },
+        "size": {
+            "height": 158,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 950
+        },
+        "size": {
+            "height": 157,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 950
+        },
+        "size": {
+            "height": 157,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
         "content_desc": "null",
         "clickable": "true",
         "enabled": "true",
         "location": {
-            "x": 665,
-            "y": 1381
+            "x": 42,
+            "y": 950
         },
         "size": {
-            "height": 142,
-            "width": 313
+            "height": 157,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 84,
+            "y": 950
+        },
+        "size": {
+            "height": 157,
+            "width": 417
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "Mobile number or email",
+        "class": "android.view.View",
+        "content_desc": "Mobile number or email",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 84,
+            "y": 1004
+        },
+        "size": {
+            "height": 50,
+            "width": 417
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.EditText",
+        "content_desc": "null",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 84,
+            "y": 1023
+        },
+        "size": {
+            "height": 54,
+            "width": 817
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 1139
+        },
+        "size": {
+            "height": 157,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 1139
+        },
+        "size": {
+            "height": 157,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 84,
+            "y": 1139
+        },
+        "size": {
+            "height": 157,
+            "width": 175
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "Password",
+        "class": "android.view.View",
+        "content_desc": "Password",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 84,
+            "y": 1193
+        },
+        "size": {
+            "height": 50,
+            "width": 175
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.EditText",
+        "content_desc": "null",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 84,
+            "y": 1212
+        },
+        "size": {
+            "height": 54,
+            "width": 817
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.Button",
+        "content_desc": "Log in",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 1328
+        },
+        "size": {
+            "height": 116,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 1328
+        },
+        "size": {
+            "height": 116,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "Log in",
+        "class": "android.view.View",
+        "content_desc": "Log in",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 484,
+            "y": 1359
+        },
+        "size": {
+            "height": 54,
+            "width": 113
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.Button",
+        "content_desc": "Forgot password?",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 332,
+            "y": 1476
+        },
+        "size": {
+            "height": 95,
+            "width": 416
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 332,
+            "y": 1476
+        },
+        "size": {
+            "height": 95,
+            "width": 416
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 374,
+            "y": 1491
+        },
+        "size": {
+            "height": 65,
+            "width": 332
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "Forgot password?",
+        "class": "android.view.View",
+        "content_desc": "Forgot password?",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 374,
+            "y": 1491
+        },
+        "size": {
+            "height": 65,
+            "width": 332
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 1571
+        },
+        "size": {
+            "height": 729,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.Button",
+        "content_desc": "Create new account",
+        "clickable": "true",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 2089
+        },
+        "size": {
+            "height": 116,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 42,
+            "y": 2089
+        },
+        "size": {
+            "height": 116,
+            "width": 996
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "Create new account",
+        "class": "android.view.View",
+        "content_desc": "Create new account",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 357,
+            "y": 2120
+        },
+        "size": {
+            "height": 54,
+            "width": 367
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.ImageView",
+        "content_desc": "Meta logo",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 460,
+            "y": 2258
+        },
+        "size": {
+            "height": 32,
+            "width": 160
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.widget.FrameLayout",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 132
+        },
+        "size": {
+            "height": 11,
+            "width": 1080
+        }
+    },
+    {
+        "resource_id": "null",
+        "text": "",
+        "class": "android.view.ViewGroup",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 132
+        },
+        "size": {
+            "height": 11,
+            "width": 1080
+        }
+    },
+    {
+        "resource_id": "com.facebook.katana:id/(name removed)",
+        "text": "",
+        "class": "android.view.View",
+        "content_desc": "null",
+        "clickable": "false",
+        "enabled": "true",
+        "location": {
+            "x": 0,
+            "y": 2337
+        },
+        "size": {
+            "height": 63,
+            "width": 1080
         }
     }
 ]

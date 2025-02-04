@@ -45,6 +45,7 @@ def get_driver(device_name=None, apk_path=None):
     options.set_capability("deviceName", device_name)
     options.set_capability("automationName", "UiAutomator2")
     options.set_capability("appPackage", app_package)
+    options.set_capability("autoGrantPermissions", True)
 
     if app_activity:
         options.set_capability("appActivity", app_activity)
